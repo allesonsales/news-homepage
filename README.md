@@ -4,7 +4,7 @@ Este projeto é uma solução do desafio: [News homepage challenge on Frontend M
 
 ## Conteúdo
 
-- [O dsafio](#o-desafio)
+- [O desafio](#o-desafio)
 - [Screenshot](#screenshot)
 - [Feito com](#feito-com)
 - [Aprendizado](#aprendizado)
