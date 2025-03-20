@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <nav>
+    <img src="/assets/images/logo.svg" alt="W.">
+    <div class="menuMobile">
+      <div class="imageClose" id="openMenu" onclick="ToggleButton()">
+        <img src="./assets/images/icon-menu.svg" alt="">
+      </div>
+      <div class="imageOpen" id="closeMenu" onclick="ToggleButton()">
+        <img src="./assets/images/icon-menu-close.svg" alt="">
+      </div>
+      <div class="background"></div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">New</a>
+        </li>
+        <li>
+          <a href="#">Popular</a>
+        </li>
+        <li>
+          <a href="">Trending</a>
+        </li>
+        <li>
+          <a href="">Categories</a>
+        </li>
+      </ul>
+    </div>
+    <div class="menuDesktop">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">New</a>
+        </li>
+        <li>
+          <a href="#">Popular</a>
+        </li>
+        <li>
+          <a href="">Trending</a>
+        </li>
+        <li>
+          <a href="">Categories</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="containerPage">
+    <section id="container1">
+      <div class="image"></div>
+      <div class="container1Description">
+        <h2>The Bright Future of Web 3.0?</h2>
+        <div class="container1DescriptionText">
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            <button>READ MORE</button>
+        </div>
+      </div>
+    </section>
+    <section id="container2">
+      <h2>New</h2>
+      <ul>
+        <li>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <span>Will hydrogen-fueled cars ever catch up to EVs?</span>
+        </li>
+        <li>
+          <h3>The Downsides of AI Artistry</h3>
+          <span>What are the possible adverse effects of on-demand AI image generation?</span>
+        </li>
+        <li>
+          <h3>Is VC Funding Drying Up?</h3>
+          <span>Private funding by VC firms is down 50% YOY. We take a look at what that means.</span>
+        </li>
+      </ul>
+    </section>
+    <section id="container3">
+      <div class="item1">
+        <div class="image"></div>
+        <div class="itemtext">
+          <span class="numberItem">01</span>
+          <b>Reviving Retro PCs</b>
+          <small>What happens when old PCs are given modern upgrades?</small>
+        </div>
+      </div>
+      <div class="item2">
+        <div class="image"></div>
+        <div class="itemtext">
+          <span class="numberItem">02</span>
+          <b>Reviving Retro PCs</b>
+          <small>What happens when old PCs are given modern upgrades?</small>
+        </div>
+      </div>
+      <div class="item3">
+        <div class="image"></div>
+        <div class="itemtext">
+          <span class="numberItem">03</span>
+          <b>The Growth of Gaming</b>
+          <small>How the pandemic has sparked fresh opportunities.</small>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/allesonsales">Alleson Sales</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
