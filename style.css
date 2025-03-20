@@ -325,9 +325,4 @@ small {
         transform: scale(1.1);
     }
 
-    .attribution {
-        position: fixed;
-        bottom: 5px;
-    }
-
 }
