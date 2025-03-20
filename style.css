@@ -327,7 +327,7 @@ small {
     }
 
     .attribution {
-        position: fixed;
+        position: relative;
         bottom: 5px;
     }
 
