@@ -228,13 +228,12 @@ small {
 
 .attribution {
     margin-top: 1rem;
-    position: static;
-    bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 @media (min-width: 1100px) {
     body {
-        margin: 0 10rem;
+        margin: 1rem 10rem;
         height: 100vh;
     }
 
@@ -326,9 +325,5 @@ small {
         transform: scale(1.1);
     }
 
-    .attribution {
-        position: fixed;
-        bottom: 5px;
-    }
 
 }
